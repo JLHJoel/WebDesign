@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-size: large;
+    line-height: 2;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+nav ul{
+    background-color: aqua;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    width: 200px;
+}
+nav li :hover{
+    background-color: white;
+}
+.container{
+    background-image: url(https://media.istockphoto.com/id/1401460590/es/foto/hombre-de-negocios-trabajando-en-una-computadora-port%C3%A1til-con-%C3%ADcono-de-administraci%C3%B3n-de.jpg?s=612x612&w=0&k=20&c=mWmY60IABgxHH6Ja6GP9J9ZZO5kb_uNCXT2WYOfI9Sw=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 60px;
+    color: aquamarine;
+
+}
+.container p{
+    margin-bottom: 200px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
